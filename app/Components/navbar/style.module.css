@@ -1,0 +1,24 @@
+.textBlue{
+    color:#FFC100;
+}
+
+.textBlack{
+    color: white;
+}
+
+.navMain{
+    display: flex;
+    width:100%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 100px;
+    gap:25px;
+}
