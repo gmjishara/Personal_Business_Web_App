@@ -8,6 +8,9 @@
 .homeTitle {
   font-size: 30px;
   font-weight: 600;
+  background: linear-gradient(to bottom, #FFC100,#ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .homeText {
