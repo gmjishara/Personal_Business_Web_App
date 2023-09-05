@@ -113,5 +113,5 @@ a {
   margin: 0 auto;
   padding: 10px 150px;
   flex-direction: column;
-  justify-content: space-between;
+  gap:35px;
 }

@@ -1,9 +1,46 @@
-.aboutTitle{
-    color: brown;
-    text-align: center;
+.aboutContainer{
+  opacity: 0.8;
 }
 
-.aboutLayout{
-    background-color: coral;
+.imageContainer {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  background-color: aqua;
 }
 
+.img {
+  object-fit: cover;
+}
+
+.imgText {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  background-color: #e9b007d1;
+  padding: 5px;
+}
+
+.textContainer {
+  display: flex;
+  gap: 40px;
+}
+
+.leftText p,
+.rightText p,
+.rightText ul {
+  margin-top: 25px;
+}
+
+.rightText ul {
+  margin-left: 30px;
+}
+
+.rightText li {
+  margin-top: 25px;
+}
+
+.leftText h1,
+.rightText h1 {
+  margin-top: 40px;
+}
