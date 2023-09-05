@@ -115,3 +115,23 @@ a {
   flex-direction: column;
   gap:35px;
 }
+
+.homeButton {
+  width: 110px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 6px;
+  background-color: #FFC100;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+  opacity: 0.9;
+}
+
+.homeButton:hover{
+  transform: scale(1.1);
+  background-color: #FFC100;
+  color: black;
+}

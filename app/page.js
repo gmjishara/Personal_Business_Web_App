@@ -14,7 +14,7 @@ export default function Home() {
           <p>Turning your idea into reality. We bring together</p>
           <p>the teams from the global tech induxtry.</p>
         </div>
-        <button className={styles.homeButton}>See Our Works</button>
+        <button className="homeButton">See Our Works</button>
       </div>
 
       <div>

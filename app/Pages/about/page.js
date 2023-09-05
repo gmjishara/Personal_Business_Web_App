@@ -46,6 +46,7 @@ export default function page() {
             <li>User-centric design approach</li>
             <li>Responsive and mobile-friendly designs</li>
           </ul>
+          <button className="homeButton">Contact us</button>
         </div>
       </div>
     </div>
