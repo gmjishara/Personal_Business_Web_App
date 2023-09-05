@@ -12,7 +12,7 @@ export default function page() {
         <div className={styles.imgText}>
           <h1 className={styles.imgTitle}>Web Designers</h1>
           <h2 className={styles.imgDescription}>
-            Award Winning excellant tech designs
+            Award winning excellant tech designs
           </h2>
         </div>
       </div>

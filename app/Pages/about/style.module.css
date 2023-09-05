@@ -1,5 +1,6 @@
 .aboutContainer{
   opacity: 0.8;
+  text-align: justify;
 }
 
 .imageContainer {
@@ -23,7 +24,7 @@
 
 .textContainer {
   display: flex;
-  gap: 40px;
+  gap: 50px;
 }
 
 .leftText p,
