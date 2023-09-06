@@ -1,0 +1,18 @@
+.blogContainer{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.blogBody{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+

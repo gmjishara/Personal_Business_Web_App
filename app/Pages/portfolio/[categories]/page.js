@@ -2,8 +2,6 @@ import React from 'react'
 
 export default function page({params}) {
   return (
-    <div>
-        {params.categories}
-    </div>
+    <div>{params.categories}</div>
   )
 }

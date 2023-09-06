@@ -1,7 +1,10 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function page() {
   return (
-    <div>Contact Us</div>
+    <div>
+      <Link href="/datas">C</Link>
+    </div>
   )
 }
