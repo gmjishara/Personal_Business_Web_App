@@ -1,10 +1,11 @@
+import { notFound } from 'next/navigation';
 import React from 'react'
 
 async function getPost(id){
-    const res=await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
+    const res=await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`,{ cache: 'no-store' })
 
     if(!res.ok){
-        throw new Error("Error fetching")
+       return notFound()
     }
 
     return res.json();

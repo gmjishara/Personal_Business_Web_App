@@ -5,7 +5,7 @@ import styles from "./style.module.css";
 import Link from "next/link";
 
 async function getData(){
-    const res=await fetch("https://jsonplaceholder.typicode.com/posts")
+    const res=await fetch("https://jsonplaceholder.typicode.com/posts",{ cache: 'no-store' })
 
     if(!res.ok){
       throw new Error("data not found");
