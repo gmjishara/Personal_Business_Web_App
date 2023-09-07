@@ -1,0 +1,11 @@
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.itemContainer{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
