@@ -10,7 +10,8 @@ async function getData(){
     if(!res.ok){
       throw new Error("data not found");
     }
-    return res.json();
+    
+    return res;
 }
 
 export default async function page() {
