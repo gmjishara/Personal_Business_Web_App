@@ -1,0 +1,16 @@
+.blogPostContainer{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.blogPostTitle{
+    font-size: 60px;
+    text-align: center;
+}
+
+.blogPostBody{
+    text-align: justify;
+    line-height: 25px;
+}
+

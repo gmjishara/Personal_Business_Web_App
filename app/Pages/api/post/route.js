@@ -6,9 +6,16 @@ export const GET = async () => {
   try {
     const connection=await connect();
     const post = await Post.find();
-    // return new NextResponse(post, { status: 200 });
     return NextResponse.json({post},{ status: 200 });
   } catch (error) {
     return new NextResponse("Something went wrong", { status: 500 });
   }
 };
+
+export const POST=async(request)=>{
+  const{name,age,gender}=await request.json();
+  await connect();
+  const res=await Post.insertMany({name,age,gender});
+  return NextResponse.json({message:"create completed"},{status:201});
+}
+
